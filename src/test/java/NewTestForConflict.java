@@ -6,7 +6,8 @@ public class NewTestForConflict {
     @Test
     void newTest() {
         int i = 3;
+        int b = 8;
         System.out.println("This test is amazing!");
-        Assertions.assertTrue(i > 2);
+        Assertions.assertTrue(i > b);
     }
 }
